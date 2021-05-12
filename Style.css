@@ -1,0 +1,179 @@
+caption {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+table {
+  color: hsl(240, 88%, 13%);
+}
+table {
+  width: 700px;
+  margin: 50px;
+  border: 1px solid black;
+  text-align: justify;
+  padding: 25px;
+}
+th {
+  border: 1px solid black;
+  width: 80px;
+}
+td {
+  border: 1px solid black;
+}
+h1 {
+  color: rgb(62, 99, 100);
+}
+h1 {
+  font-family: "Times New Roman";
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: Palace Script;
+}
+h2 {
+  color: rgb(14, 63, 95);
+}
+h3 {
+  color: rgb(39, 39, 99);
+}
+body {
+  background-color: rgb(178, 176, 187);
+  width: 900px;
+  height:1000px;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-style: italic;
+}
+h3 {
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+li {
+  color: rgb(13, 13, 83);
+}
+img {
+  border: 4px rgb(11, 7, 71) solid;
+  float: right;
+}
+img {
+  border-radius: 20px;
+}
+h3 {
+  font-size: 30px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+.section_1 {
+  background-color: rgb(151, 168, 173);
+  padding: 20px;
+  margin: 30px;
+}
+.section_1 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 800px;
+  height: max-content;
+  position: relative;
+  right:17px;
+  }
+.section_2 {
+  background-color: rgb(151, 168, 173);
+  padding: 20px;
+  margin: 10px;
+}
+.section_2 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 800px;
+  height: max-content;
+  position: static;
+  }
+.section_3 {
+  background-color: rgb(151, 168, 173);
+  padding: 20px;
+  margin: 20px;
+}
+.section_3 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 200px;
+  bottom: 220px;
+  position: relative;
+  right:14px ;
+  top:15px;
+    }
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav li {
+  margin-right: 15px;
+}
+nav a {
+  font-size: 1em;
+  color: darkblue;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #760001;
+  border-bottom: 3px solid#760001;
+}
+nav {
+  display: inline-block;
+  position: relative;
+  top:10px;
+  left: 12px;
+}
+nav {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(131, 151, 151);
+}
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+th {
+  font-family: "Times New Roman", Times, serif;
+}
+tr {
+  font-family: "Times New Roman", Times, serif;
+}
+caption {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+footer {
+  background-color: darkgray;
+  position: static;
+
+}
+header {
+  background-color: darkgray;
+  text-align: justify;
+  position:sticky;
+}
+
+
+

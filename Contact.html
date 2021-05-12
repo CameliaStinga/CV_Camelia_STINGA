@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <link href="style contact.css" rel="stylesheet" type="text/css" />
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <section class="contact">
+      <div class="formulaire">
+        <form action="https://httpbin.org/post" method="POST">
+          <div class="form">
+            <div>
+              <label for="name">Nom* :</label>
+              <input id="name" name="nom" required />
+            </div>
+            <div>
+              <label for="mail">E-mail* :</label>
+              <input id="mail" name="Email" required />
+            </div>
+          </div>
+          <div class="form">
+            <label for="option-select">Choisir une option:</label>
+            <select name="option" id="option-select">
+              <option value="choisissez une option">
+                Choisissez une option
+              </option>
+              <option value="renseignements">Renseignements</option>
+              <option value="conseils">Conseils</option>
+              <option value="documentation technique">
+                Documentation technique
+              </option>
+              <option value="autres">Autres</option>
+            </select>
+          </div>
+          <div>
+            <label for="msg">Message* :</label>
+            <textarea id="msg" name="message"></textarea>
+          </div>
+          <label for="required"> * Ce champ est obligatoire</label>
+          <div class="button">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+          </div>
+
+          <p>Cochez une case:</p>
+          <div>
+            Professionnel
+            <input type="radio" name="personne" value="professionnel" />
+          </div>
+          <div>
+            Particulier
+            <input type="radio" name="personne" value="particulier" />
+          </div>
+          <div>
+            Autre <input type="radio" name="personne" value="autre" checked />
+          </div>
+          <div><input type="button" value="Choisir" /></div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
